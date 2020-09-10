@@ -16,7 +16,7 @@ ontology_analytics.rb文件存在于ncbo_cron/lib/ncbo_cron/目录下。该程�
 
 注意：请指定该文件如下代码段中的username,password,token和site_id。
 ```
-	raw = {
+   raw = {
           "header": {
                "username": "yourusername",
                "password": "yourpassword",
@@ -32,7 +32,7 @@ ontology_analytics.rb文件存在于ncbo_cron/lib/ncbo_cron/目录下。该程�
                "start_index": "#{start_index}",
                "max_results": "#{max_results}"
            }
-    }  
+   }  
 ```
 
 ## 3. medportal version description
