@@ -32,7 +32,7 @@ ontology_analytics.rb文件存在于ncbo_cron/lib/ncbo_cron/目录下。该程�
                "start_index": "#{start_index}",
                "max_results": "#{max_results}"
            }
-   }  
+     }  
 ```
 
 ## 3. medportal version description
