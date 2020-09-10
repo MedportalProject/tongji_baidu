@@ -15,24 +15,25 @@ _baidu_tongji.html.haml文件存在于bioportal_web_ui/app/views/application/目
 ontology_analytics.rb文件存在于ncbo_cron/lib/ncbo_cron/目录下。该程序通过使用百度统计API从百度统计系统中获取报告数据，对数据处理后，将结果记录到redis缓存中。
 
 注意：请指定该文件如下代码段中的username,password,token和site_id。
-
-​	raw = {
-​          "header": {
-​                  "username": "yourusername",
-​                  "password": "yourpassword",
-​                  "token": "yourtoken",
-​                  "account_type": 1
-​                },
-​           "body": {
-​                  "site_id": "yoursiteid",
-​                  "start_date": "#{start_date}",
-​                  "end_date": "#{end_date}",
-​                  "metrics": "pv_count",
-​                  "method": "visit/toppage/a",
-​                  "start_index": "#{start_index}",
-​                  "max_results": "#{max_results}"
-​                }
-​        }  
+```
+	raw = {
+          "header": {
+               "username": "yourusername",
+               "password": "yourpassword",
+               "token": "yourtoken",
+               "account_type": 1
+           },
+           "body": {
+               "site_id": "yoursiteid",
+               "start_date": "#{start_date}",
+               "end_date": "#{end_date}",
+               "metrics": "pv_count",
+               "method": "visit/toppage/a",
+               "start_index": "#{start_index}",
+               "max_results": "#{max_results}"
+           }
+    }  
+```
 
 ## 3. medportal version description
 
