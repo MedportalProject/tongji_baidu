@@ -34,7 +34,7 @@ ontology_analytics.rb文件存在于ncbo_cron/lib/ncbo_cron/目录下。该程�
 ​                }
 ​        }  
 
-## 3. Medportal Version Description
+## 3. medportal version description
 
 Medportal基于NCBO BioPortal构建，核心组件及其版本号为
 
